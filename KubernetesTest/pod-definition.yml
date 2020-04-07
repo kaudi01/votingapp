@@ -1,12 +1,12 @@
+--- 
 apiVersion: v1
 kind: Pod
-metadata:
-	name: pod-creation
-	labels:
-        name: pod-creation
-		app: demo-pod-creation
-spec:
-	container:
-		- name: nginx
-		  image: nginx
-	  
+metadata: 
+  labels: 
+    app: demo-pod-creation
+    name: pod-creation
+spec: 
+  container: 
+    - 
+      image: nginx
+      name: nginx
