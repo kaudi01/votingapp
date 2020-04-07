@@ -4,9 +4,9 @@ kind: Pod
 metadata: 
   labels: 
     app: demo-pod-creation
-    name: pod-creation
+    name: pod-creation-test
 spec: 
   containers: 
     - 
-      image: dockersamples/examplevotingapp_vote
-      name: votingapp
+      image: nginx
+      name: nginx
