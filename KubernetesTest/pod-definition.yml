@@ -6,7 +6,7 @@ metadata:
     app: demo-pod-creation
     name: pod-creation
 spec: 
-  container: 
+  containers: 
     - 
       image: dockersamples/examplevotingapp_vote
       name: votingapp
