@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-    name: ReplicaSet-test
+    name: replicaSet-test
     labels:
         name: demo-replicas
         app: test-app
