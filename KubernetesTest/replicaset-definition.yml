@@ -12,11 +12,10 @@ Spec:
                 labels: 
                     app: demo-pod-creation
                     name: pod-creation-test 
-spec: 
-  containers: 
-    - 
-      image: nginx
-      name: nginx
+            spec: 
+                containers: 
+                   - image: nginx
+                     name: nginx
 
     replicas: 4
     selectors:
