@@ -5,7 +5,7 @@ metadata:
     labels:
         name: demo-replicas
         app: test-app
-Spec:
+spec:
     templates:
             metadata: 
                 name: test-pod-creation
