@@ -19,5 +19,5 @@ spec:
                      name: nginx
     replicas: 4
     selector:
-        matchLabel:
+        matchLabels:
             name: pod-creation-test
