@@ -18,6 +18,6 @@ spec:
                      name: nginx
 
     replicas: 4
-    selectors:
+    selector:
         matchLabels:
             app: demo-pod-creation
