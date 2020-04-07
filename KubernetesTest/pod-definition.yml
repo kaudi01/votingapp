@@ -8,5 +8,5 @@ metadata:
 spec: 
   container: 
     - 
-      image: nginx
-      name: nginx
+      image: dockersamples/examplevotingapp_vote
+      name: votingapp
