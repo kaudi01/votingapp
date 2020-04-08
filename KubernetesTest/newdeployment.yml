@@ -14,7 +14,7 @@ spec:
                        name: pod-creation-test 
            spec: 
                containers: 
-                    - image: nginx:1.7.1
+                    - image: nginx:1.12
                       name: nginx
      replicas: 4
      selector:
