@@ -9,5 +9,5 @@ spec:
     containers:
         - name: postgress
           image: postgress:9.4
-    ports:
+    Ports:
         - containerPort: 5432
