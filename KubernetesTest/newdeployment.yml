@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+       name: update-test
+       labels:
+             name: new-update-test
+             app: test-update
+spec:
+     template:
+           metadata: 
+                  name: test-pod-creation
+                  labels: 
+                       app: demo-pod-creation
+                       name: pod-creation-test 
+           spec: 
+               containers: 
+                    - image: nginx
+                      name: nginx
+     replicas: 4
+     selector:
+            matchLabels:
+                app: demo-pod-creation
