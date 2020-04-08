@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Pod
+kind: Deployment
 metadata:
        name: update-test
        labels:
@@ -14,7 +14,7 @@ spec:
                        name: pod-creation-test 
            spec: 
                containers: 
-                    - image: nginx
+                    - image: nginx:1.7.1
                       name: nginx
      replicas: 4
      selector:
